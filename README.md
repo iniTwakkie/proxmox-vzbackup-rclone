@@ -32,7 +32,7 @@ chmod +x /root/proxmox-vzbackup-rclone/vzbackup-rclone.sh
 script:/root/proxmox-vzbackup-rclone/vzbackup-rclone.sh
 ```
 
-5. You're finished. Kicking off a manual (via Proxomox WEBUI) or scheduled backup (via Proxmox WEBUI) will automatically trigger the rclone backup. To verify this, you can kickoff a manual backup and watch the proxmox console log output.
+5. You're finished. Kicking off a manual (via Proxmox WEBUI) or scheduled backup (via Proxmox WEBUI) will automatically trigger the rclone backup. To verify this, you can kickoff a manual backup and watch the proxmox console log output.
 
 ### Example webui console output from a successful vzbackup run:
 
